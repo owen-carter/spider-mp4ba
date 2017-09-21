@@ -3,7 +3,7 @@
 
 ### 如何开始？
 - 手动方式
-	- git clone git@github.com:owen-carter/spider-mp4ba.git
+	- git clone https://github.com/owen-carter/spider-mp4ba.git
 	- cd spider-mp4ba
 	- npm install
 	- npm run app
