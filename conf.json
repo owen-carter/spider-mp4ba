@@ -1,0 +1,5 @@
+{
+  "filename": "./magnet.csv",
+  "pageNumberLimit": 300,
+  "logLevel": "info"
+}
