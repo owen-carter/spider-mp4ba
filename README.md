@@ -1,4 +1,4 @@
-# spider-mp4ba
+# spider-mp4ba [![Build Status](https://www.travis-ci.org/owen-carter/spider-mp4ba.svg?branch=master)](https://www.travis-ci.org/owen-carter/spider-mp4ba)
 > 一个爬mp4ba的爬虫，使用nodejs编写
 
 ### 如何开始？
@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/owen-carter/spider-mp4ba/master/start.sh 
 ```
 
 
-### 关于磁性连接
+### 关于mp4ba
 - 采集到的并不完全都是磁性连接
 - 由于真正的mp4ba已经不存在了，所以很多资源已经无法下载到了
 - 所以采集到的链接资源需要处理一下
@@ -21,8 +21,10 @@ curl https://raw.githubusercontent.com/owen-carter/spider-mp4ba/master/start.sh 
 
 ### 过滤磁性连接
 ```sh
-   cat final。csv | grep magnet 》 x。scv
+   cat final.csv | grep magnet > x.scv
 ```
+
+
 
 
 
