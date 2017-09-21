@@ -9,7 +9,7 @@
 	- npm run app
 - 自动
 ```sh
-curl https://raw.githubusercontent.com/owen-carter/spider-mp4ba/master/start.sh | bash
+curl -o- https://raw.githubusercontent.com/owen-carter/spider-mp4ba/master/start.sh | bash
 ```
 
 
