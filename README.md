@@ -1,5 +1,5 @@
 # spider-mp4ba
-》一个爬mp4ba的爬虫，使用nodejs编写
+> 一个爬mp4ba的爬虫，使用nodejs编写
 
 ### 如何开始？
 - 手动方式
@@ -8,9 +8,9 @@
 	- npm install
 	- npm run app
 - 自动
-···sh
-curl 
-···
+```sh
+curl https://raw.githubusercontent.com/owen-carter/spider-mp4ba/master/start.sh | bash
+```
 
 
 ### 关于磁性连接
@@ -20,9 +20,10 @@ curl
 
 
 ### 过滤磁性连接
-···sh
+```sh
    cat final。csv | grep magnet 》 x。scv
-···
+```
+
 
 
 
