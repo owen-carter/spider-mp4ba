@@ -7,7 +7,6 @@ let links       = csvReader('./mp4ba视频地址final.csv');
 
 console.dir(links);
 
-links.length = 10;
 
 let publish = ejs.render(tpl, {links: links, title: 'mp4ba'})
 

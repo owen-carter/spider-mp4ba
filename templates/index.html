@@ -1,6 +1,16 @@
+
 <h1><%= title %></h1>
 <ul>
-<% for(var i=0; i<links.length; i++) {%>
-	<li><%= links[i] %></li>
-<% } %>
+<% for(var i=0; i<links.length; i++) {
+    %>
+	<li>
+		<a href=<%= links[i].link %> > <%= links[i]['name'] %> </a>
+	</li>
+    <%
+    }
+%>
 </ul>
+
+<style>
+
+</style>
