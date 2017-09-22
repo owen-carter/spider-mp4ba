@@ -22,8 +22,8 @@ install:
 - npm install
 script:
 - npm run app
-- npm run publish
 - npm run less
 after_success:
-- echo 'success'
+- npm run publish
+
 
