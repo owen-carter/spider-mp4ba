@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "app": "node index.js"
+    "app": "node index.js",
+    "compile": "node compile.js",
+    "less": "gulp less"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +14,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "ejs": "^2.5.7",
+    "gulp-less": "^3.3.2",
     "iconv-lite": "^0.4.18",
     "log4js": "^2.3.3",
     "request": "^2.81.0",
