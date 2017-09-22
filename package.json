@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "app": "node index.js",
-    "compile": "node compile.js",
+    "publish": "gulp publish",
     "less": "gulp less"
   },
   "keywords": [],
