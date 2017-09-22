@@ -1,4 +1,20 @@
+html {
+  color: rgba(82, 35, 44, 0.79);
+}
+html body {
+  width: 100%;
+}
+html body ul {
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
 html body ul li a {
-  color: #000;
+  color: rgba(82, 35, 44, 0.79);
   font-weight: 400;
+}
+html body ul li a:hover {
+  color: teal;
+  font-size: 20px;
+  font-weight: 600;
 }

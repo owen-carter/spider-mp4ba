@@ -1,10 +1,21 @@
+@fontColor: rgba(82, 35, 44, 0.79);
 html {
+  color: @fontColor;
   body {
+    width: 100%;
     ul {
+      width: 50%;
+      padding-left: 25%;
+      padding-right: 25%;
       li {
         a {
-          color: #000;
+          color: @fontColor;
           font-weight: 400;
+          &:hover {
+            color: teal;
+            font-size: 20px;
+            font-weight: 600;
+          }
         }
       }
     }

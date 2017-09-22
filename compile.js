@@ -8,7 +8,7 @@ let links       = csvReader('./mp4ba视频地址final.csv');
 console.dir(links);
 
 
-let publish = ejs.render(tpl, {links: links, title: 'mp4ba'})
+let publish = ejs.render(tpl, {links: links, title: 'mp4ba网站链接地址墙'})
 
 fs.writeFile('./docs/index.html', publish, {flag: 'w', encoding: 'utf-8', mode: '0666'}, function (err) {
     if (err) {
