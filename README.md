@@ -8,7 +8,7 @@
 	- npm install
 	- npm run app
 - 自动
-```sh
+```bash
 curl -o- https://raw.githubusercontent.com/owen-carter/spider-mp4ba/master/start.sh | bash
 ```
 
@@ -20,7 +20,7 @@ curl -o- https://raw.githubusercontent.com/owen-carter/spider-mp4ba/master/start
 
 
 ### 过滤磁性连接
-```sh
+```bash
    cat final.csv | grep magnet > x.scv
 ```
 
