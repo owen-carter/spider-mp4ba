@@ -6,7 +6,7 @@
   "scripts": {
     "app": "node index.js",
     "publish": "gulp publish",
-    "channglog": "github-changes -o owen-carter -r spider-mp4ba -a --only-pulls --use-commit-body",
+    "changelog": "github-changes -o owen-carter -r spider-mp4ba -a --only-pulls --use-commit-body",
     "less": "gulp less"
   },
   "keywords": [],
